@@ -13,7 +13,7 @@ class HipChat(object):
         self.format = format
 
     def message_room(self, room_id='', message_from='',
-                     message='', message_format='text', color='',
+                     message='', message_format='html', color='',
                      notify=False):
         url = self.url + 'rooms/message?format=%s&auth_token=%s' \
             % (self.format, self.token)
