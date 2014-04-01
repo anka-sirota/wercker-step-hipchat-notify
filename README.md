@@ -38,6 +38,10 @@ The MIT License (MIT)
 
 # Changelog
 
+## 1.0.4
+
+- Refactoring
+
 ## 1.0.3
 
 - Fix bug if `from-name` contains a space (thanks @anfedorov)

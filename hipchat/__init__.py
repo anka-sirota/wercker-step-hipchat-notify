@@ -23,7 +23,7 @@ class HipChat(object):
             'message': message,
             'color': color,
             'message_format': message_format,
-            #'notify': notify and 1 or 0,
+            'notify': notify and '1' or '0',
         }
         data = urlencode(values)
         print url, data
