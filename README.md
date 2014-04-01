@@ -38,7 +38,7 @@ The MIT License (MIT)
 
 # Changelog
 
-## 1.0.4
+## 1.1.0
 
 - Refactoring
 
